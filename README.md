@@ -28,3 +28,11 @@ dans le terminal, nom_projet étant le nom de votre projet, entrez la commande:
 meteor create nom_projet
 ```
 
+# lancement de votre super application
+
+avec le terminal, placez-vous dans le répertoire de votre application, puis lancez-le avec la commande:
+```
+meteor
+```
+
+(oui, c'est aussi simple que ça!)
