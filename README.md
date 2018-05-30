@@ -20,3 +20,11 @@ ou entrez la commande suivante dans un terminal:
 
 lancez la commande suivante dans votre terminal: ```curl https://install.meteor.com/ | sh```
 
+
+# creation d'un projet meteor
+
+dans le terminal, nom_projet étant le nom de votre projet, entrez la commande:
+```
+meteor create nom_projet
+```
+
