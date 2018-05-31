@@ -36,3 +36,50 @@ meteor
 ```
 
 (oui, c'est aussi simple que ça!)
+
+# conseils
+
+1. lorsque vous lancez la commande
+```
+meteor create maSuperAppli
+```
+évitez les noms comportant des espaces ou des tirets, vraiment! le npm contenu dans Meteor semble ne vraiment pas aimer ça. Faites-moi confiance, ça vous évitera de perdre beaucoup de temps. et au passage, Meteor a sa propre version de npm et ne nécessite pas d'avoir au préalable une installation globale de npm sur sa machine.
+
+2. erreur avec la commande ```meteor``` version 1.6.1_1 sur windows
+
+il se peut que lorsque vous lancez la commande ```meteor```, meteor vous insulte copieusement et qu'une erreur apparaisse:
+
+```console
+Error: The @babel/runtime npm package could not be found in your node_modules directory. Please run the following command to install it:
+meteor npm install --save @babel/runtime
+```
+vous décidez alors de lancer cette commande suggérée par météor, et là un nouveau message d'erreur apparaît:
+
+```console
+'npm' is not a Meteor command. See 'meteor --help'.
+```
+
+La seule solution que j'ai trouvé pour l'instant est d'utiliser une installation globale de npm et d'utiliser la commande:
+
+```console
+npm install --save @babel/runtime
+```
+
+Maintenant, vous pouvez à nouveau lancer la commande
+
+```console
+meteor
+```
+et tout devrait fonctionner, vous verrez s'afficher
+````console
+[[[[[ ~\E\meteor\votreSuperAppli ]]]]]
+
+=> Started proxy.
+=> Started MongoDB.
+=> Started your app.
+
+=> App running at: http://localhost:3000/
+   Type Control-C twice to stop.
+```
+
+Si vous connaissez un meilleur moyen de procéder, n'hésitez pas à me contacter!
