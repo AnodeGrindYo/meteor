@@ -83,4 +83,11 @@ et tout devrait fonctionner, vous verrez s'afficher
    Type Control-C twice to stop.
 ```
 
-Si vous connaissez un meilleur moyen de procéder, n'hésitez pas à me contacter!
+rendez-vous dans votre navigateur à l'adresse:
+```
+localhost:3000
+```
+
+et vous verrez s'afficher l'application de démo de Meteor
+
+![screenshot01](https://github.com/adriengodoy/meteor/blob/master/img/meteor_demo_app_screenshot.png "screenshot")
