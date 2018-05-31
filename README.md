@@ -71,6 +71,7 @@ Maintenant, vous pouvez à nouveau lancer la commande
 meteor
 ```
 et tout devrait fonctionner, vous verrez s'afficher
+
 ````console
 [[[[[ ~\E\meteor\votreSuperAppli ]]]]]
 
