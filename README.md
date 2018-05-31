@@ -115,6 +115,7 @@ Si vous ouvrez votre projet dans votre éditeur préféré, vous pourrez vous ap
 
 * le dossier .meteor/ contient les fichiers de configuration du projet.
 * le dossier client/ est le point d'entrée du code frontend (qui sera exécuté côté client).
+* le dossier node_modules contient les modules nodejs installés.
 * le dossier server/ est le point d'entrée du code backend (exécuté côté serveur).
 * package-lock.json est généré automatiquement pour toutes les opérations où npm modifie l'arborescence node_modules ou package.json. Il décrit l'arborescence exacte qui a été générée, de sorte que les installations ultérieures peuvent générer des arborescences identiques, indépendamment des mises à jour de dépendances intermédiaires.
 * package.json contient diverses métadonnées relatives projet. Ce fichier est utilisé pour donner des informations à npm qui lui permettent d'identifier le projet ainsi que de gérer les dépendances du projet. Il peut également contenir d'autres métadonnées telles qu'une description de projet, la version du projet dans une distribution particulière, des informations de licence, voire des données de configuration, utiles à la fois pour npm et pour les utilisateurs finaux du package.
