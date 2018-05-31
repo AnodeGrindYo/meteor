@@ -91,3 +91,23 @@ localhost:3000
 et vous verrez s'afficher l'application de démo de Meteor
 
 ![screenshot01](https://github.com/adriengodoy/meteor/blob/master/img/meteor_demo_app_screenshot.png "screenshot")
+
+
+# structure d'un projet Meteor
+
+Si vous ouvrez votre projet dans votre éditeur préféré, vous pourrez vous appercevoir qu'un projet Meteor contient les éléments suivants:
+
+    ˫ ▸ 📁 .meteor/
+    ˫ ▾ 📁 client/
+		 ˪  /* main.css
+		 ˪  <> main.css
+		 ˪  /* main.js
+    ˫ ▾ 📁 node_modules/
+		 ˪ ▸ 📁 @babel/
+		 ˪ ▸ 📁 core-js/
+		 ˪ ▸ 📁 regenerator-runtime/
+    ˫ ▾ 📁 server/
+		 ˪ /* main.js
+    ˪ 📄 .gitignore
+    ˪ /* package-lock.json
+    ˪ /* package.json
