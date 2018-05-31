@@ -72,7 +72,7 @@ meteor
 ```
 et tout devrait fonctionner, vous verrez s'afficher
 
-````console
+```console
 [[[[[ ~\E\meteor\votreSuperAppli ]]]]]
 
 => Started proxy.
